@@ -1,0 +1,5 @@
+workon darkflow
+flow --imgdir my_photos/ --model cfg/yolo.cfg --load bin/yolo.weights --gpu 1.0
+
+ou para webcam:
+flow --demo camera --model cfg/yolo.cfg --load bin/yolo.weights --gpu 1.0
